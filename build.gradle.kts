@@ -48,14 +48,6 @@ tasks.processResources {
 tasks {
     runServer {
         minecraftVersion("1.21.1")
-
-        downloadPlugins {
-            url("https://www.spigotmc.org/resources/placeholderapi.6245/download?version=541946")
-            url("https://cdn.modrinth.com/data/DKY9btbd/versions/J66QOTLZ/worldguard-bukkit-7.0.12-dist.jar")
-            url("https://github.com/dmulloy2/ProtocolLib/releases/download/5.4.0/ProtocolLib.jar")
-            url("https://cdn.modrinth.com/data/1u6JkXh5/versions/Bu1zaaoc/worldedit-bukkit-7.3.9.jar")
-            url("https://download.luckperms.net/1594/bukkit/loader/LuckPerms-Bukkit-5.5.9.jar")
-        }
     }
 }
 
