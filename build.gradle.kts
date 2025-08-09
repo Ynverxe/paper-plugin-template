@@ -56,8 +56,8 @@ tasks.shadowJar {
         attributes["paperweight-mappings-namespace"] = "mojang"
     }
 
-    relocate("io.github.ynverxe.configuratehelper", "io.github.ynverxe.boxedinpowers.configuratehelper")
-    relocate("org.spongepowered.configurate", "io.github.ynverxe.boxedinpowers.configurate")
-    relocate("de.tr7zw.changeme.nbtapi", "io.github.ynverxe.boxedinpowers.nbtapi")
-    relocate("net.kyori.option", "io.github.ynverxe.boxedinpowers.net.kyori.option")
+    relocate("io.github.ynverxe.configuratehelper", "${rootPackage}.configuratehelper")
+    relocate("org.spongepowered.configurate", "${rootPackage}.configurate")
+    relocate("de.tr7zw.changeme.nbtapi", "${rootPackage}.nbtapi")
+    relocate("net.kyori.option", "${rootPackage}.net.kyori.option")
 }
