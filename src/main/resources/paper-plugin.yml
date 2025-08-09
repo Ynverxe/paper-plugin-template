@@ -1,4 +1,5 @@
 name: "${name}"
 version: "${version}"
-author: "${author}"
+author: ${author}
 main: "${main}"
+api-version: "1.21"

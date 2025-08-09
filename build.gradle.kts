@@ -32,7 +32,12 @@ dependencies {
 }
 
 tasks.processResources {
-    val props = mapOf("version" to project.version)
+    val props = mapOf(
+        "version" to project.version,
+        "main" to main,
+        "name" to pluginName,
+        "author" to authors.contentToString()
+    )
 
     filteringCharset = "UTF-8"
     filesMatching("paper-plugin.yml") {
